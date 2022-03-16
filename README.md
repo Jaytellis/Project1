@@ -49,3 +49,25 @@ Only the Jump-Box virtual machine can accept connections from the Internet. Acce
 - Admin's personal IP Address
 
 Machines within the network can only be accessed by SSH
+
+- Allowed Jump-Box Provisioner - IP 10.0.0.4
+
+A summary of the access policies in place can be found in the table below.
+
+![Image2](https://user-images.githubusercontent.com/91991300/158523176-bd503437-8388-4138-80bd-b13520ca9d1d.png)
+
+**Elk Configuration**
+
+Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because:
+- Ansible exercises automation and simplifies repetitive, complex, and tedious tasks. 
+
+The playbook implements the following tasks:
+
+- Install: docker.io
+- Install: python3-pip
+- Install: docker module
+- Increase Memory Use: sysctl -w vm.max_map_count =262144
+
+The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
+
+![alt text](https://github.com/Jaytellis/Project1/blob/main/Images/Elk761.png)
