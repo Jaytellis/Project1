@@ -15,14 +15,14 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 This document contains the following details:
 
--Description of the Topology
+- Description of the Topology
 
--Access Policies
+- Access Policies
 
--ELK Configuration
+- ELK Configuration
 
--Beats in Use
+- Beats in Use
 
--Machines Being Monitored
+- Machines Being Monitored
 
--How to Use the Ansible Build
+- How to Use the Ansible Build
