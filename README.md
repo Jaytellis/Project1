@@ -87,3 +87,14 @@ These Beats allow us to collect the following information from each machine:
 
 - Filebeat: a shipper for forwarding and centralizing log data. Filebeat also monitors log files or locations specified, collects log events, and forwards them either to Elasticsearch or Logstash for indexing.
 - Metricbeat: collects metrics from the operating system and from services running on the server. Metricbeat then takes the metrics and statistics and ships them to the output that you specify. 
+
+**Using the Playbook**
+
+In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
+
+SSH into the control node and follow the steps below:
+
+- Copy the filebeat-playbook.yml file to the /etc/ansible/files directory.
+- Update the configuration file to include the private IP “10.1.0.4” of the Elk-Server to the ElasticSearch and Kibana sections of the configuration file
+- Run the playbook, and navigate to http://[0.0.0.0]:5601/app/kibana to check that the installation worked as expected.
+- Create a new playbook in the /etc/ansible/roles directory. This playbook should install, deploy the updated configuration file, enable and configure the system module, run the filebeat setup, and start the filebeat service. 
