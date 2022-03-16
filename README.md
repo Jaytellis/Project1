@@ -85,7 +85,7 @@ We have installed the following Beats on these machines:
 
 These Beats allow us to collect the following information from each machine: 
 
-- Filebeat: a shipper for forwarding and centralizing log data. Filebeat also monitors log files or locations specified, collects log events, and forwards them either to Elasticsearch or Logstash for indexing.
+- Filebeat: Filebeat monitors log files or locations specified, collects log events, and forwards them either to Elasticsearch or Logstash for indexing.
 - Metricbeat: collects metrics from the operating system and from services running on the server. Metricbeat then takes the metrics and statistics and ships them to the output that you specify. 
 
 **Using the Playbook**
