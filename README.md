@@ -34,7 +34,7 @@ This document contains the following details:
 - Load Balancers contribute to the availability aspect of the CIA Triad
 - JumpBox is used for System Administration and secured external network access. JumpBox is advantageous because it can be used for launching Administrative Tasks. The JumpBox Provisioner becomes a System Admin Workstation. Tasks will need to be completed while connected to the JumpBox. The JumpBox is also configured for limited access providing a secure network environment. 
 - Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the filesystem and system resources.
-- - Filebeat monitors log files or locations that have been configured. Filebeat also collects logs.
-- - Metricbeat records metric and statistical data from the operating system and from the services running on the host servers. 
+ - Filebeat monitors log files or locations that have been configured. Filebeat also collects logs.
+ - Metricbeat records metric and statistical data from the operating system and from the services running on the host servers. 
 
 The configuration details of each machine may be found below.
