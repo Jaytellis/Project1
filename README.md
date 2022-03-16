@@ -21,9 +21,9 @@ This document contains the following details:
 
 - ELK Configuration
 
- - Beats in Use
+  - Beats in Use
 
- - Machines Being Monitored
+  - Machines Being Monitored
 
 - How to Use the Ansible Build
 
