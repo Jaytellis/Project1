@@ -38,3 +38,5 @@ This document contains the following details:
   - Metricbeat records metric and statistical data from the operating system and from the services running on the host servers. 
 
 The configuration details of each machine may be found below.
+
+[What is this](~/Desktop/TestProject1/Image1.png)
