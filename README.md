@@ -39,4 +39,13 @@ This document contains the following details:
 
 The configuration details of each machine may be found below.
 
+![Image1](https://user-images.githubusercontent.com/91991300/158522833-8833fe4b-160c-4fd6-987e-fecef77cf0e5.png)
 
+**Access Policies** 
+
+The machines on the internal network are not exposed to the public Internet. 
+
+Only the Jump-Box virtual machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
+- Admin's personal IP Address
+
+Machines within the network can only be accessed by SSH
