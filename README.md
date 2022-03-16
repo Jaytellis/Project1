@@ -39,4 +39,4 @@ This document contains the following details:
 
 The configuration details of each machine may be found below.
 
-[What is this](~/Desktop/TestProject1/Image1.png)
+
